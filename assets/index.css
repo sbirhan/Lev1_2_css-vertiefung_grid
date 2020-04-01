@@ -1,0 +1,86 @@
+
+.grid-container-1{
+    display: grid;
+    width: 90w;
+    height: 87vh;
+    grid-template-areas:    "red red blue blue"
+                            "green purple purple purple"
+                            "yellow yellow yellow yellow";
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+
+}
+
+h3{
+    text-align: center;
+}
+
+.grid-container-1>div, .grid-container-2 > div{
+    border-radius: 1vw;
+    padding: 20px 0;
+}
+
+.red-box-1{
+    grid-area: red;
+    background-color: red;
+}
+
+.blue-box-1{
+    grid-area: blue;
+    background-color: blue;
+}
+
+.green-box-1{
+    grid-area: green;
+    background-color: green;
+}
+
+.purple-box-1{
+    grid-area: purple;
+    background-color: purple;
+}
+
+.yellow-box-1{
+    grid-area: yellow;
+    background-color: yellow;
+}
+
+.grid-container-2{
+    display: grid;
+    width: 50vw;
+    height: 87vh;
+    grid-template-areas:    "red red red red"
+                            "blue blue green green"
+                            "blue blue purple-1 purple-2";
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    padding-left: 25vw;
+    padding-right: 20vw;
+}
+
+.red-box-2{
+    grid-area: red;
+    background-color: red;
+}
+
+.blue-box-2{
+    grid-area: blue;
+    background-color: blue;
+}
+
+.green-box-2{
+    grid-area: green;
+    background-color: green;
+}
+
+.purple-box-2{
+    grid-area: purple-1;
+    background-color: purple;
+}
+
+.purple-box-3{
+    grid-area: purple-2;
+    background-color: purple;
+}
